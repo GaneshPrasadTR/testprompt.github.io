@@ -1,0 +1,47 @@
+[
+    {
+        "usecaseName": "General - Content Writing Assistant",
+        "description": "Generates blog content ideas and outlines.",
+        "systemPrompt": "Provide detailed and creative content suggestions.",
+        "userPrompt": "Generate a blog post outline for the topic 'Future of Artificial Intelligence'.",
+        "category": "Content Creation",
+        "llmModel": "GPT-4",
+        "contributorEmail": "example@outlook.com"
+    },
+    {
+        "usecaseName": "NLP - Customer Support Bot",
+        "description": "Handles common customer queries.",
+        "systemPrompt": "Simulate a polite and knowledgeable customer service agent.",
+        "userPrompt": "Answer the customer query: 'What is the status of my order #12345?'",
+        "category": "Customer Service",
+        "llmModel": "GPT-3.5",
+        "contributorEmail": "example@example.com"
+    },
+    {
+        "usecaseName": "Debug - Code Review Assistant",
+        "description": "Reviews submitted code for potential issues.",
+        "systemPrompt": "Analyze the provided code and suggest improvements.",
+        "userPrompt": "Review the following Python code for efficiency and readability:\n```python\ndef calculate_sum(n):\n    total = 0\n    for i in range(n + 1):\n        total += i\n    return total\n```",
+        "category": "Development",
+        "llmModel": "Codex",
+        "contributorEmail": "example@example.com"
+    },
+    {
+        "usecaseName": "EDA - Data Analysis Helper",
+        "description": "Assists in analyzing datasets and providing insights.",
+        "systemPrompt": "Analyze and interpret the data for actionable insights.",
+        "userPrompt": "What are the key trends in this dataset?\n\n| Month | Sales |\n|-------|-------|\n| Jan   | 100   |\n| Feb   | 150   |\n| Mar   | 120   |",
+        "category": "Data Science",
+        "llmModel": "GPT-4",
+        "contributorEmail": "example@example.com"
+    },
+    {
+        "usecaseName": "NLP - Language Translator",
+        "description": "Translates text between languages.",
+        "systemPrompt": "Translate the given text accurately while maintaining context.",
+        "userPrompt": "Translate this English text to French: 'The weather is beautiful today.'",
+        "category": "Translation",
+        "llmModel": "GPT-4",
+        "contributorEmail": "example@example.com"
+    }
+]
